@@ -26,8 +26,8 @@ function displayArticles(article) {
   const templateElt = document.getElementById("templateArticle")
   const clone = document.importNode(templateElt.content, true)
   
-  cloneElt.getElementById("blog_title").textContent = article.title
-  cloneElt.getElementById("blog_body").textContent = article.body
+  cloneElt.getElementById("hbg").textContent = article.title
+  cloneElt.getElementById("hbg").textContent = article.body
   
   document.getElementById("main").appendChild(cloneElt)
 }
