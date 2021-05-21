@@ -1,203 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <script src="index.js" defer></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Orinoco</title>
- </head>
- <body>
-  <div id="bloc_page">
-  
-                        <!--début header -->
-    <section id="topmq">
-   <header> 
-     
-      <img id="logo" src="logo orinico.png" alt="logo du site"> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orinoco</title>
+</head>
 
-      <nav class="nav">
-        <ul>
-          
-          <li><a href="#" id="inscription"> Panier</a></li>
-        </ul> 
-      </nav>
-        
+<body>
+    <div id="bloc_page">
 
-    </header>
+        <!--début header -->
+        <section id="topmq">
+            <header>
 
-    
-                    <!-- Fin sous partie Recherche-->
+                <img id="logo" src="logo orinico.png" alt="logo du site">
+
+                <nav class="nav">
+                    <ul>
+
+                        <li><a href="#" id="inscription"> Panier</a></li>
+                    </ul>
+                </nav>
 
 
- 
+            </header>
 
 
-                  <!--Bloc Main début-->
+            <!-- Fin sous partie Recherche-->
 
 
-  <main class="hebergementetpopulaire">
 
-    <section class="hebergement">
-      <h2 id="ancreResultats" class="hbgtitre"> Appareil photo vintage</h2>
 
-        <div class="marseille">
-          <template id="templateArticle">
-            <article id="hbg">
-              <a href="vcam1.html">
-                
-                <img class="hotel" src="vcam_1.jpg" alt="Camera1">
-                
-                
-                <h3>Vcam_1</h3>
-        
-                <p>  Prix  <strong>25€</strong></p>
-                
-                <div class="etoiles">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i> 
-                  <i class="fas fa-star"></i> 
-                  <i class="fas fa-star"></i>
-                  <span class="etoilegris"><i class="fas fa-star"></i></span>
+
+            <!--Bloc Main début-->
+
+
+            <main class="hebergementetpopulaire">
+
+                <section class="hebergement">
+                    <h2 id="ancreResultats" class="hbgtitre"> Appareil photo vintage</h2>
+
+
+                    <div class="marseille" id="main">
+                        <template id="templateArticle">
+                        <article class="hbg">
+                          <a id="article_url" href="vcam1.html">
+                            <img id="article_image" class="hotel" src="vcam_1.jpg" alt="Camera1">
+                            <h3 id="article_name">Vcam_1</h3>
+                            <p> Prix <strong id="article_price">25</strong></p>
+                            <div class="etoiles">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <span class="etoilegris"><i class="fas fa-star"></i></span>
+                            </div>
+                          </a>
+                        </article>
+                      </template>
+
+                        <!--
+
+                        
+
+
+
+                        <div class="hbg">
+                            <a href="#">
+                                <img class="hotel" src="vcam_2.jpg" alt="Camera1">
+                                <h3>Vcam_2</h3>
+
+                                <p> Prix <strong>52€</strong></p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="hbg">
+                            <a href="#">
+                                <img class="hotel" src="vcam_3.jpg" alt="Camera2">
+                                <h3>Vcam_3</h3>
+
+                                <p> Prix 45€</p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="etoilegris"><i class="fas fa-star"></i></span>
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="hbg">
+                            <a href="#">
+                                <img class="hotel" src="vcam_4.jpg" alt="Camera3">
+                                <h3>Vcam_4</h3>
+
+                                <p> Prix 46€</p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="etoilegris"><i class="fas fa-star"></i></span>
+                                    <span class="etoilegris"><i class="fas fa-star"></i></span>
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="hbg">
+                            <a href="#">
+                                <img class="hotel" src="vcam_5.jpg" alt="Camera4">
+                                <h3>Vcam_5</h3>
+
+                                <p> Nuit à partir de <strong>23€</strong></p>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span class="etoilegris"><i class="fas fa-star"></i></span>
+                                </div>
+                            </a>
+                        </div>
+
+                        -->
+
+
+
+
+                        <a href="#">
+                            <p class="more">Afficher plus</p>
+                        </a>
+
+                    </div>
+
+                </section>
+
+
+
+            </main>
+
+            <!--Bloc Main Fin-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--Debut Footer-->
+
+            <footer>
+                <div class="aPropos">
+                    <h5><a href="#">A propos</a></h5>
+                    <ul class="footer-links">
+
+                        <li><a href="#">Fonctionement du site</a></li>
+                        <li><a href="#">Condition génerales du site</a></li>
+                        <li><a href="#">Données et confidentialité</a></li>
+                    </ul>
                 </div>
-              </a>
-            </article>
-          </template>
-          <div class="hbg">
-        <a href="#">
-          <img class="hotel" src="vcam_2.jpg" alt="Camera1">
-          <h3>Vcam_2</h3>
-          
-          <p> Prix  <strong>52€</strong></p>
-          <div class="etoiles">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i> 
-            <i class="fas fa-star"></i> 
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-        </a>    
-      </div>
 
 
-      <div class="hbg">
-        <a href="#">
-          <img class="hotel" src="vcam_3.jpg" alt="Camera2">
-          <h3>Vcam_3</h3>
-    
-          <p> Prix 45€</p>
-          <div class="etoiles">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i> 
-            <i class="fas fa-star"></i> 
-            <i class="fas fa-star"></i>
-            <span class="etoilegris"><i class="fas fa-star"></i></span>
-          </div>
-        </a>
-      </div>
+                <div class="nosHebergements">
+                    <h5><a href="#">Les produits</a></h5>
+                    <ul class="footer-links">
+
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href="#">Les mentions légales</a></li>
+                    </ul>
+                </div>
+
+                <div class="Assistance">
+                    <h5><a href="#">Assistance</a></h5>
+                    <ul class="footer-links">
+
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </div>
+            </footer>
 
 
+            <script src="https://kit.fontawesome.com/760272e59e.js" crossorigin="anonymous"></script>
 
-      <div class="hbg">
-        <a href="#">
-         <img class="hotel" src="vcam_4.jpg" alt="Camera3">
-          <h3>Vcam_4</h3>
-  
-          <p> Prix 46€</p>
-          <div class="etoiles">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i> 
-            <i class="fas fa-star"></i> 
-            <span class="etoilegris"><i class="fas fa-star"></i></span>
-            <span class="etoilegris"><i class="fas fa-star"></i></span>
-          </div>
-        </a>
-      </div>
-
-
-
-      <div class="hbg">
-        <a href="#">
-         <img class="hotel" src="vcam_5.jpg" alt="Camera4">
-          <h3>Vcam_5</h3>
-    
-          <p> Nuit à partir de <strong>23€</strong></p>
-          <div class="etoiles">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i> 
-            <i class="fas fa-star"></i> 
-            <i class="fas fa-star"></i>
-            <span class="etoilegris"><i class="fas fa-star"></i></span>
-          </div>
-        </a>
-      </div>
-
-
-
-      <a href="#"><p class="more">Afficher plus</p></a> 
-    
-  </div>
-
-  </section>
-
-
-
-</main>
-
-<!--Bloc Main Fin-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--Debut Footer-->
-
-<footer>
-  <div class="aPropos">
-    <h5><a href="#">A propos</a></h5>
-    <ul class="footer-links">
-      
-    <li><a href="#">Fonctionement du site</a></li>
-    <li><a href="#">Condition génerales du site</a></li>
-    <li><a href="#">Données et confidentialité</a></li>
-  </ul>
-  </div>
-  
-
-  <div class="nosHebergements">
-    <h5><a href="#">Les produits</a></h5>
-    <ul class="footer-links">
-      
-    <li><a href="#">Charte qualité</a></li> 
-    <li><a href="#">Les mentions légales</a></li> 
-  </ul>
-  </div>
-
-  <div class="Assistance">
-    <h5><a href="#">Assistance</a></h5>
-    <ul class="footer-links">
-      
-    <li><a href="#">Centre d'aide</a></li>  
-    <li><a href="#">Nous contacter</a></li>
-    </ul> 
-  </div>
-</footer>
-  
-
- <script src="https://kit.fontawesome.com/760272e59e.js" crossorigin="anonymous"></script>
-
-</div>
+    </div>
 
 </body>
+
 </html>
